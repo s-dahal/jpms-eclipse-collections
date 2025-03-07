@@ -5,7 +5,7 @@
     <parent>
         <groupId>dev.ikm.build</groupId>
         <artifactId>parent</artifactId>
-        <version>1.57.0</version>
+        <version>1.58.0</version>
         <relativePath></relativePath>
     </parent>
 
@@ -13,7 +13,7 @@
     <artifactId>eclipse-collections</artifactId>
     <packaging>jar</packaging>
     <name>Eclipse collections</name>
-    <version>${core.artifact.version}-${core.artifact.release}</version>
+    <version>11.1.0-r13</version>
     <description>
         Builds the commons-text.  Requires eclipse-collections-api be built first and be excluded from
         any other poms requiring it.
