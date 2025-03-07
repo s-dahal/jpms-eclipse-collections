@@ -13,7 +13,7 @@
     <artifactId>eclipse-collections</artifactId>
     <packaging>jar</packaging>
     <name>Eclipse collections</name>
-    <version>${core.artifact.version}-${core.artifact.release}</version>
+    <version>11.1.0-r13-AR-299_Java23</version>
     <description>
         Builds the commons-text.  Requires eclipse-collections-api be built first and be excluded from
         any other poms requiring it.
