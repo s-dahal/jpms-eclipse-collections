@@ -31,11 +31,20 @@
     </properties>
 
     <!-- transitive dependencies of the repackaged artifact -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>eclipse-collections-api</artifactId>
+                <version>${eclipse-collections-api.version}</version>
+            </dependency> 
+        </dependencies>
+    </dependencyManagement>
+    
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>eclipse-collections-api</artifactId>
-            <version>${eclipse-collections-api.version}</version>
         </dependency>
     </dependencies>
 
