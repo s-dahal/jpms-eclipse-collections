@@ -46,6 +46,7 @@ jobs:
           RC_NUMBER=$(echo "$RC_VERSION" | grep -o -E '[0-9]+')
           NEW_RC_NUMBER=$((1 + $RC_NUMBER))
           echo "DEV_VERSION=$CORE_VERSION-r$NEW_RC_NUMBER-SNAPSHOT" >> $GITHUB_OUTPUT
+          echo $CORE_VERSION-r$RC_NUMBER
           exit 1
 
       - name: Shared Release Action
