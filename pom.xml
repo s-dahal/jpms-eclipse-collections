@@ -40,7 +40,7 @@
             </dependency> 
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -85,7 +85,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <!-- <version>3.3.0</version> -->
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -102,7 +102,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.6.0</version>
+                <!-- <version>3.6.0</version> -->
                 <executions>
                     <execution>
                         <phase>generate-resources</phase>
@@ -126,7 +126,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
-                <version>3.4.0</version>
+                <!-- <version>3.4.0</version> -->
                 <executions>
                     <execution>
                         <id>add-source</id>
