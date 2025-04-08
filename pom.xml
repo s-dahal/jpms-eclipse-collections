@@ -22,7 +22,7 @@
     <properties>
         <!-- change release here-->
         <core.artifact.version>12.0.0.M3</core.artifact.version>
-        <core.artifact.release>r2</core.artifact.release>
+        <core.artifact.release></core.artifact.release>
 
         <!-- transitive dependency versions -->
         <eclipse-collections-api.version>12.0.0.M3-r1</eclipse-collections-api.version>
