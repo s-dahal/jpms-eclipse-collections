@@ -13,7 +13,7 @@
     <artifactId>eclipse-collections</artifactId>
     <packaging>jar</packaging>
     <name>Eclipse collections</name>
-    <version>12.0.1.M3-r3-SNAPSHOT</version>
+    <version>12.0.0.M3-r4-SNAPSHOT</version>
     <description>
         Builds the commons-text.  Requires eclipse-collections-api be built first and be excluded from
         any other poms requiring it.
@@ -22,7 +22,7 @@
     <properties>
         <!-- change release here-->
         <core.artifact.version>12.0.0.M3</core.artifact.version>
-        <core.artifact.release></core.artifact.release>
+        <core.artifact.release>r4</core.artifact.release>
 
         <!-- transitive dependency versions -->
         <eclipse-collections-api.version>12.0.0.M3-r3</eclipse-collections-api.version>
